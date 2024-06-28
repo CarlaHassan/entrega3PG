@@ -24,7 +24,8 @@ urlpatterns = [
     path('productos/', views.productos, name='productos'),
     path('formulario/', views.formulario, name='formulario'),
     path('galeria/', views.galeria, name='galeria'),
-    path('', include('tu_aplicacion.urls'))
+    path('', include('tu_aplicacion.urls')),
+    path('', views.index, name='index'),
 ]
 
 
