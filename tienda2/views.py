@@ -26,3 +26,7 @@ def formulario(request):
 
         return HttpResponse('Formulario enviado correctamente!')
     return render(request, 'formulario.html')
+
+def galeria(request):
+    return render(request, 'myapp/galeria.html')
+    
