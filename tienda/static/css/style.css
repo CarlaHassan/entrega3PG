@@ -1,0 +1,23 @@
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.card {
+    transition: all 0.3s;
+}
+
+.piePage {
+    color: white;
+}
+
+
+
+#time-widget {
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    opacity: 0.9;
+
+}
