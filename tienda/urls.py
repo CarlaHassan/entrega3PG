@@ -23,5 +23,6 @@ urlpatterns = [
     path('tienda2/' ,include('tienda2.urls')),
     path('productos/', views.productos, name='productos'),
     path('formulario/', views.formulario, name='formulario'),
+    path('galeria/', views.galeria, name='galeria')
 ]
 
